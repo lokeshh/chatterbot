@@ -19,3 +19,6 @@ give it to the user. Otherwise, it will search for the most relevant response.
 Dictionary   can   be   used   to   search   responses   in   the   memory   and   the   sentence   which   user  
 submits   can   be   broken   down   into   strings   and   saved   as   a   list   to   be   used   to   find   an   optimal  
 response. 
+
+##How to compile
+Simply run `g++ main.cpp learner.cpp voice.cpp`

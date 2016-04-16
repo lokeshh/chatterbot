@@ -5,11 +5,11 @@
 using namespace std;
 /*
     The following function will look for the passed phrase in the memory file.
-    If there is a match, the accompanying response, stored below the initial phrase, 
-    will be outputed. 
+    If there is a match, the accompanying response, stored below the initial phrase,
+    will be outputed.
     If the response cannot be found, the learner will repeat the phrase, and prompt
     the user to enter an ideal response. This response will be stored in the memory
-    file along with the initial phrase. 
+    file along with the initial phrase.
 */
 void Learner::respond(string phrase){
     fstream memory;
@@ -19,7 +19,7 @@ void Learner::respond(string phrase){
     while( !memory.eof() ){    // While not at end of file
         string identifier;
         getline(memory,identifier);    // Get next phrase
-        
+
         if(identifier == phrase){    // Is it the phrase we are looking for
             string response;
             getline(memory,response);   // If so, get the response

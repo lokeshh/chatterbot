@@ -1,8 +1,10 @@
 #include "learner.h"
 #include <iostream>
 #include <fstream>
+#include <string>
 
 using namespace std;
+
 /*
     The following function will look for the passed phrase in the memory file.
     If there is a match, the accompanying response, stored below the initial phrase,

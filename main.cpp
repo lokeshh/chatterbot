@@ -1,10 +1,11 @@
-#include <iostream>
 #include "learner.h"
+#include <iostream>
 #include <cstdlib>
+#include <string>
 
 using namespace std;
 
-main(){
+int main(){
     Learner AI;    // Create a learner object
 
     /*

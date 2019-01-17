@@ -1,4 +1,4 @@
-#Simple AI chatter bot that learns as we talk 
+# Simple AI chatter bot that learns as we talk 
  
 It   involves   writing   an   AI   bot   that   will   communicate   with   a   user   like   any   other   person   in   the  
 following manner: 
@@ -20,5 +20,5 @@ Dictionary   can   be   used   to   search   responses   in   the   memory   and
 submits   can   be   broken   down   into   strings   and   saved   as   a   list   to   be   used   to   find   an   optimal  
 response. 
 
-##How to compile
+## How to compile
 Simply run `g++ main.cpp learner.cpp voice.cpp`
